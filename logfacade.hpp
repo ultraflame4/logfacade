@@ -14,8 +14,8 @@
  */
 
 
-#ifndef LOGFACADE_HPP
-#define LOGFACADE_HPP
+#ifndef _LOGFACADE_HPP_
+#define _LOGFACADE_HPP_
 
 #include "fmt/format.h"
 #include <functional>
