@@ -1,5 +1,6 @@
 #pragma once
 
+
 /**
  * @file logfacade.hpp
  * @author ultr42 (ultr42.dev)
@@ -11,6 +12,10 @@
  * @copyright Copyright (c) 2025
  * 
  */
+
+
+#ifndef LOGFACADE_HPP
+#define LOGFACADE_HPP
 
 #include "fmt/format.h"
 #include <functional>
@@ -73,3 +78,5 @@ namespace logfacade {
     };
 
 } // namespace logfacade
+
+#endif // LOGFACADE_HPP
